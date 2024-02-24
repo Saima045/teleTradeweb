@@ -15,15 +15,15 @@ const cors = require('cors');
 const app=express()
 
 // use cors middleware to allow cross site requests
-app.use(cors())
-// app.use(cors(
-//     {
-//         origin:['https://teletradeapi.vercel.app'],
-//         methods:["POST","GET"],
-//         credentials:true
+//app.use(cors())
+app.use(cors(
+    {
+        origin:['https://tele-trade-client.vercel.app'],
+        methods:["POST","GET"],
+        credentials:true
 
-//     }
-// ))
+    }
+))
 
 
 // connect to the database
