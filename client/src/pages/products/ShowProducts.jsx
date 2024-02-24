@@ -10,7 +10,7 @@ import { TbBrandWhatsapp } from "react-icons/tb";
 import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { MdOutlineMail } from "react-icons/md";
 import { ClockLoader } from 'react-spinners';
-import ReactTooltip from 'react-tooltip';
+//import ReactTooltip from 'react-tooltip';
 import { getCategory, resetCatg } from "../../features/category/catSlice";
 
 const ShowProducts = () => {
