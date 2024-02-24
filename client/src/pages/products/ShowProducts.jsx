@@ -7,7 +7,7 @@ import Header from '../../components/header/Header'
 import { LuPhoneCall } from "react-icons/lu";
 import { IoMdText } from "react-icons/io";
 import { TbBrandWhatsapp } from "react-icons/tb";
-import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Button, OverlayTrigger } from 'react-bootstrap';
 import { MdOutlineMail } from "react-icons/md";
 import { ClockLoader } from 'react-spinners';
 //import ReactTooltip from 'react-tooltip';
